@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food.com</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- web icon -->
+    <link rel="web icon" href="web icon.PNG">
+</head>
+<body>
+    <nav>
+        <p id="nav-p">Food.com</p>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#list-restoran">Daftar Restoran</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero" id="Home">
+        <div class="hero-penjelasan">
+            <h1>Food.com</h1>
+            <p id="p-hero">Selamat Datang di Food.com. website yang membantu ada untuk menemukan restoran yang ada di lokasimu serta informasi dan ulasan</p>
+        </div>
+    </section>
+    <section class="about-us">
+        <h2>About Us</h2>
+        <div class="p-about-us">
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque minus quos enim assumenda expedita, voluptates corporis quisquam? Nulla consectetur, natus magni laudantium, quis sint voluptatem voluptas modi, praesentium neque esse?.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus dolores commodi ratione deserunt accusantium, dolore expedita eaque temporibus nisi sed perferendis quia aspernatur voluptatibus officiis officia repellendus, eum perspiciatis.</p>
+        </div>
+    </section>
+    <section class="daftar" id="list-restoran">
+        <h2>Daftar Restoran</h2>
+        <div class="list-daftar">
+            <div class="daftar-restoran">
+                <div class="gambar1">
+                    <img src="gambar restoran baru.PNG" alt="semangku katsu" height="200px">
+                </div>
+                <hr>
+                <div class="p-restoran1">
+                    <p>Semangku katsu merupakan restoran jepang yang berada di Surabaya.</p>
+                </div>
+            </div>
+            <div class="daftar-restoran2">
+                <div class="gambar2">
+                    <img src="gambar restoran baru 2.PNG" alt="CFC" height="200px">
+                </div>
+                <hr>
+                <div class="p-restoran2">
+                    <p>CFC merupakan salah satu restoran yang mirip dengan KFC tapi lebih kearah kota yang berbeda.</p>
+                </div>
+            </div>
+            <div class="daftar-restoran3">
+                <div class="gambar3">
+                    <img src="gambar restoran 3.PNG" alt="Tomororow Coffe" height="200px">
+                </div>
+                <hr>
+                <div class="p-restoran3">
+                    <p>Tomorow coffe merupkan restoran coffe yang baik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us" id="contact">
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p id="p-contact">If you have any question about our service</p>
+            <form action="#">
+                <label for="full-name">Full Name</label><br>
+                <input type="text" placeholder="enter your name"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="enter your email"><br><br>
+                <label for="Question">Question</label><br>
+                <input type="text" id="question" placeholder="enter your question"><br>
+                <button type="submit" id="btn-submit" onclick="alert('data tersimpan')">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

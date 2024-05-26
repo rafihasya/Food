@@ -1,0 +1,165 @@
+/* styling navbar */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: FF0000;
+    padding: 10px;
+    background: linear-gradient(to right,lightgreen,white);
+    box-shadow: 0 5rem 1rem rgba(0, 0, 0, .1);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+    padding-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: green;
+    transition: all;
+    transition-duration: 300ms;
+}
+#nav-p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* akhir navbar */
+/* konten utama */
+/* hero section */
+.hero{
+    background-image: url(fresh-colourful-ingredients-mexican-cuisine\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.hero-penjelasan{
+    margin: 0 auto;
+    line-height: 1.5;
+
+}
+h1{
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+}
+#p-hero{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding: auto;
+}
+/* about us */
+.about-us{
+    background-color: aliceblue;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    color: green;
+    font-size: 30px;
+}
+.p-about-us{
+    color: black;
+    font-size: 20px;
+}
+#p1{
+    margin-bottom: 15px;
+}
+/* contact us */
+.contact-us{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
+#p-contact{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+input{
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 290px;
+    border-radius: 20px;
+}
+#question{
+    margin-bottom: 10px;
+}
+#btn-submit{
+    width: 320px;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right,cornflowerblue,azure);
+}
+#btn-submit:hover{
+    background: aqua;
+}
+/* daftar restoran */
+.daftar{
+    background-color: lightsteelblue;
+}
+.list-daftar{
+    margin-top: 30px;
+    border: 1px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+.gambar1{
+    margin-top: 10px;
+}
+.gambar2{
+    margin-top: 10px;
+}
+.gambar3{
+    margin-top: 10px;
+}
+.daftar-restoran{
+    display: grid; 
+    border-bottom: 1px solid;
+    grid-template-columns: 400px auto auto; 
+}
+.daftar-restoran2{
+    border-bottom: 1px solid;
+    display: grid;
+    grid-template-columns: 400px auto auto;
+}
+.daftar-restoran3{
+    border-bottom: 1px solid;
+    display: grid;
+    grid-template-columns: 400px auto auto;
+}
+.p-restoran1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px;
+}
+.p-restoran2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px;
+}
+.p-restoran3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px;
+}
+/* akhir dari konten utama */
